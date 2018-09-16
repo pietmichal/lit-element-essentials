@@ -1,0 +1,23 @@
+{
+  "name": "lit-element-essentials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unrealprogrammer/lit-element-essentials.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unrealprogrammer/lit-element-essentials/issues"
+  },
+  "homepage": "https://github.com/unrealprogrammer/lit-element-essentials#readme"
+}
