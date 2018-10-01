@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>LitElement Essentials Part 3</title>
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@latest/webcomponents-loader.js"></script>
+  </head>
+  <body>
+    <h1>LitElement Essentials Part 3</h1>
+    <span>Inspect the page to notice the nuances.</span>
+
+    <h2>The mood component (reflect set to false)</h2>
+    <mood-component></mood-component>
+    <script type="module" src="./mood.component.js"></script>
+
+    <h2>The mood component (reflect set to true)</h2>
+    <mood-v2-component></mood-v2-component>
+    <script type="module" src="./mood-v2.component.js"></script>
+
+    <h2>The mood component (reflect set to true, attribute set to "current-mood")</h2>
+    <mood-v3-component></mood-v3-component><br>
+    <mood-v3-component current-mood="good"></mood-v3-component>
+    <script type="module" src="./mood-v3.component.js"></script>
+
+    <h2>The mood component (reflect set to true, attribute set to false)</h2>
+    <mood-v4-component></mood-v4-component><br>
+    <mood-v4-component currentmood="good"></mood-v4-component>
+    <script type="module" src="./mood-v4.component.js"></script>
+
+    <h2>The integer component (type is set to a function)</h2>
+    <integer-component value="3.14"></integer-component>
+    <script type="module" src="./integer.component.js"></script>
+
+    <h2>The integer component (type is set to an object)</h2>
+    <integer-v2-component value="3.14"></integer-v2-component>
+    <script type="module" src="./integer-v2.component.js"></script>
+
+    <h2>The person component (hasChanged is set to a function)</h2>
+    <person-component></person-component>
+    <script type="module" src="./person.component.js"></script>
+  </body>
+</html>    
