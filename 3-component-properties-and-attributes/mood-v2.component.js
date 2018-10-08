@@ -1,7 +1,7 @@
 import {
   html,
   LitElement
-} from "https://unpkg.com/@polymer/lit-element@0.6.1/lit-element.js?module";
+} from "https://unpkg.com/@polymer/lit-element@0.6.2/lit-element.js?module";
 
 class MoodV2Component extends LitElement {
   static get properties() {
