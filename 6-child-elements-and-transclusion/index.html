@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>LitElement Essentials Part 6</title>
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@latest/webcomponents-loader.js"></script>
+  </head>
+  <body>
+    <h1>LitElement Essentials Part 6</h1>
+    <h2>Content Transclusion</h2>
+    <my-component>
+      I am displayed!
+    </my-component>
+    <script type="module" src="./my-component.component.js"></script>
+    <h2>Accessing Child Elements Without Rendering Them</h2>
+    <element-count>
+      <b>foo</b>
+      <b>bar</b>      
+      <b>baz</b>
+    </element-count>
+    <script type="module" src="./element-count.component.js"></script>
+  </body>
+</html>   
